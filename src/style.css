@@ -21,6 +21,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
 }
 .header {
   height: 64px;
@@ -31,6 +33,7 @@ body {
   position: fixed;
   padding: 0px 30px;
   background-color: white;
+  z-index: 100;
 }
 .logo-and-btn-burger-menu {
   display: flex;
@@ -119,6 +122,10 @@ li {
 .info-block-card {
   display: flex;
 }
+.info-block-card-photo-block {
+  margin: 30px 0px 0px 30px;
+  background-color: white;
+}
 .info-block-card-text-title {
   margin-bottom: 8px;
   font-size: 22px;
@@ -143,38 +150,37 @@ li {
   padding-bottom: 20px;
   display: flex;
   background-image: url("../assets/pattern.png");
-  background-color: rgba(0,0,0,0.15);  
+  background-color: rgba(0, 0, 0, 0.15);
   background-size: 100%;
   width: 100%;
   height: 100%;
   flex-direction: column;
   align-content: space-between;
-  
 }
 
-.left-top{
- width: 834px;
- height: 420px;
+.left-top {
+  width: 834px;
+  height: 420px;
 }
 
-.right-top{
+.right-top {
   width: 402px;
   height: 420px;
 }
 
-.middle-one{
-width: 1260px;
-height: 420px;
+.middle-one {
+  width: 1260px;
+  height: 420px;
 }
 
-.bottom-left{
-width: 402px;
-height: 420px;
+.bottom-left {
+  width: 402px;
+  height: 420px;
 }
 
-.bottom-right{
-width: 834px;
-height: 420px;
+.bottom-right {
+  width: 834px;
+  height: 420px;
 }
 
 .top {
@@ -187,34 +193,34 @@ height: 420px;
   margin-top: 20px;
   display: flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content: center;
 }
 
 .bottom {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 
-.curtains-text{
+.curtains-text {
   width: 250px;
   height: 150px;
   right: 10px;
   bottom: 10px;
   position: absolute;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .curtains-text p {
   margin: 0 auto;
   width: 100%;
   height: 100%;
-  font-size:46px;
+  font-size: 46px;
   text-align: center;
-  color:white;
+  color: white;
 }
 
-.relative-img{
+.relative-img {
   position: relative;
 }
