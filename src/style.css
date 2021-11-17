@@ -257,28 +257,28 @@ li {
 }
 
 .left-top {
-  width: 834px;
-  height: 420px;
+  width: 100%;
+  height: 100%;
 }
 
 .right-top {
-  width: 402px;
-  height: 420px;
+  width: 100%;
+  height: 100%;
 }
 
 .middle-one {
-  width: 1260px;
-  height: 420px;
+  width: 100%;
+  height: 100%;
 }
 
 .bottom-left {
-  width: 402px;
-  height: 420px;
+  width: 100%;
+  height: 100%;
 }
 
 .bottom-right {
-  width: 834px;
-  height: 420px;
+  width: 100%;
+  height: 100%;
 }
 
 .top {
@@ -302,8 +302,8 @@ li {
 }
 
 .curtains-text {
-  width: 250px;
-  height: 150px;
+  width: 40%;
+  height: 100%;
   right: 10px;
   bottom: 10px;
   position: absolute;
@@ -807,4 +807,24 @@ footer {
   margin-bottom: 30px;
   width: 100%;
   margin: 0 auto;
+}
+.width-procent-top-right {
+  width: 30%;
+  height: auto;
+}
+.width-procent-top-left {
+  width: 63%;
+  height: auto;
+}
+.width-procent-center {
+  width: 95%;
+  margin: 0 auto;
+}
+.width-procent-bottom-left {
+  width: 30%;
+  height: auto;
+}
+.width-procent-bottom-right {
+  width: 63%;
+  height: auto;
 }
