@@ -121,7 +121,7 @@ li {
   justify-content: space-evenly;
 }
 .scale-icon-block {
-  width: 12%;
+  width: 100%;
 }
 .scale-icon {
   width: 30px;
@@ -138,6 +138,7 @@ li {
 }
 @media (max-width: 400px) {
   .header {
+    width: 91%;
   }
 }
 /* .shadow-icon {
@@ -654,6 +655,7 @@ h2:hover {
   margin-right: 20px;
   background-color: #58585b;
   background-size: 100%;
+  min-width: 243px;
 }
 
 footer {
@@ -669,14 +671,15 @@ footer {
   margin-top: 100px;
 }
 .license {
-  width: 255px;
+  width: 25%;
   height: auto;
   box-sizing: border-box;
   box-sizing: border-box;
   font-size: 16px;
 }
 .contact {
-  width: 350px;
+  width: 25%;
+  min-width: 327px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -685,7 +688,7 @@ footer {
   box-sizing: border-box;
 }
 .address {
-  width: 300px;
+  width: 25%;
   height: auto;
   padding: 0px 0px 0px 32px;
   margin-bottom: 22px;
@@ -693,7 +696,7 @@ footer {
   font-size: 16px;
 }
 .social {
-  width: 21%;
+  width: 25%;
   height: auto;
   padding-left: 70px;
   box-sizing: border-box;
@@ -827,4 +830,103 @@ footer {
 .width-procent-bottom-right {
   width: 63%;
   height: auto;
+}
+.contact-address-block {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 992px) {
+  .contact-address-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    padding: 10px;
+  }
+  .contact {
+    padding: 10px;
+  }
+  .address {
+    width: 100%;
+    text-align: start;
+    padding: 10px;
+  }
+  .address:before {
+    content: "📍";
+  }
+  .license {
+    padding: 10px;
+    width: 50%;
+  }
+  .social {
+    padding: 20px;
+    width: 50%;
+  }
+  .info-block-card {
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  footer {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+  }
+  .contact-address-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    padding: 10px;
+  }
+  .contact {
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .address {
+    width: 100%;
+    text-align: start;
+    padding: 10px;
+  }
+  .address:before {
+    content: "📍";
+  }
+  .license {
+    padding: 10px;
+    width: 50%;
+  }
+  .social {
+    padding: 20px;
+    width: 50%;
+  }
+  .social-media-icon-footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .contact-tel-2 {
+    margin-left: 27px;
+  }
+}
+.btn-top-home {
+  position: relative;
+  top: 500px;
+  right: 81px;
+  width: 80px;
+  height: 55px;
+  background-color: wheat;
+  border-radius: 30px;
 }
