@@ -779,3 +779,28 @@ footer {
   opacity: 1;
   color: rgb(255, 255, 255);
 }
+.slick-next:before {
+  content: "→";
+  color: white;
+  position: relative;
+  right: 77px;
+}
+.slick-prev {
+  left: 52px;
+  z-index: 1000;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+  width: 96%;
+  margin: 0 auto;
+}
