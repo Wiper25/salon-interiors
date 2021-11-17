@@ -205,7 +205,6 @@ li {
 .info-block-card-btn {
 }
 
-
 .chapter-elite-curtains-block {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -214,9 +213,15 @@ li {
   height: 100%;
   flex-direction: column;
   align-content: space-between;
-  background: linear-gradient( to right, #888888 0%, #dedede 25%, #888888 50%, #dedede 75%, #888888 100% );
+  background: linear-gradient(
+    to right,
+    #888888 0%,
+    #dedede 25%,
+    #888888 50%,
+    #dedede 75%,
+    #888888 100%
+  );
   box-shadow: inset 0px 0px 40px 5px #3c3c3c;
-  
 }
 .info-block-experience {
   padding: 0px 30px;
@@ -317,15 +322,14 @@ li {
 .relative-img {
   position: relative;
 }
-<<<<<<< HEAD
 
 .video {
-  margin-top:50px;
+  margin-top: 50px;
 }
 
 .background-video {
   display: flex;
-  background-color: rgba(203,101,0,0.15);
+  background-color: rgba(203, 101, 0, 0.15);
   align-items: center;
   justify-content: center;
 }
@@ -337,10 +341,10 @@ iframe {
   height: 700px;
 }
 
-.services-wrapper a{
+.services-wrapper a {
   text-decoration: none;
-  color:white;
-  font-size:24px;
+  color: white;
+  font-size: 24px;
   justify-content: center;
 }
 .services-title {
@@ -349,19 +353,19 @@ iframe {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  font-size:40px;
+  font-size: 40px;
   text-align: center;
-  font-weight: 700
+  font-weight: 700;
 }
 
-.services-title img{
-  margin-top:-30px;
+.services-title img {
+  margin-top: -30px;
   margin-bottom: 40px;
   height: 35px;
   width: 400px;
 }
 
-.services-row-one{
+.services-row-one {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -375,19 +379,19 @@ iframe {
   position: absolute;
   height: 50px;
   width: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   bottom: 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.design img{
+.design img {
   width: 100%;
   height: 100%;
   position: absolute;
 }
-.row-n-column div{
+.row-n-column div {
   width: 402px;
   height: 301px;
   position: relative;
@@ -403,15 +407,15 @@ iframe {
   flex-direction: column;
 }
 
-.sew{
+.sew {
   bottom: -22px;
 }
 
-.row-n-column span{
+.row-n-column span {
   position: absolute;
   height: 50px;
   width: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   bottom: 0;
   display: flex;
   justify-content: center;
@@ -424,47 +428,51 @@ iframe {
   justify-content: space-evenly;
 }
 
-.services-row-two div{
+.services-row-two div {
   width: 402px;
   height: 301px;
   background-color: gray;
-  position:relative;
+  position: relative;
 }
 
-
-.services-row-two span{
-  position:absolute;
+.services-row-two span {
+  position: absolute;
   width: 100%;
   height: 50px;
   background-color: rgba(0, 0, 0, 0.5);
-  bottom:0;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
-.montage img{
+.montage img {
   width: 402px;
   height: 301px;
   position: absolute;
 }
 
-.shadow:hover{
-box-shadow: 0 0 30px 7px rgba(0,0,0,0.5);
-transition: all 0.3s;
-cursor: pointer;
+.shadow:hover {
+  box-shadow: 0 0 30px 7px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 .portfolio {
   background-image: url("pattern.png");
-  
+
   margin-top: 50px;
   padding-bottom: 200px;
-  background: linear-gradient( to right, #888888 0%, #dedede 25%, #888888 50%, #dedede 75%, #888888 100% );
+  background: linear-gradient(
+    to right,
+    #888888 0%,
+    #dedede 25%,
+    #888888 50%,
+    #dedede 75%,
+    #888888 100%
+  );
   box-shadow: inset 0px 0px 40px 5px #3c3c3c;
 }
-
 
 .portfolio-wrapper {
   display: flex;
@@ -473,7 +481,6 @@ cursor: pointer;
   align-items: center;
 }
 
-
 .portfolio-info {
   display: flex;
   flex-direction: column;
@@ -481,34 +488,33 @@ cursor: pointer;
   align-items: center;
   margin-top: -60px;
 }
-.portfolio-info p{
- margin-top: -10px;
+.portfolio-info p {
+  margin-top: -10px;
 }
 
-.portfolio-wrapper div{
+.portfolio-wrapper div {
   width: 370px;
   height: 247px;
 }
 
-.portfolio-wrapper img{
+.portfolio-wrapper img {
   width: 100%;
   height: 100%;
-
 }
-.portfolio-title{
+.portfolio-title {
   margin-bottom: 25px;
 }
 
 h2 {
   font-size: 40px;
   font-weight: 700;
-  color:#58585b;
+  color: #58585b;
 }
-h2:hover{
-  color:#58585b;
-  opacity:0.5;
+h2:hover {
+  color: #58585b;
+  opacity: 0.5;
   transition: all 0.3s;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .curtains-title {
@@ -529,7 +535,6 @@ h2:hover{
   height: 247px;
   border: 2px solid gray;
   position: relative;
- 
 }
 .second-layer {
   width: 370px;
@@ -537,15 +542,15 @@ h2:hover{
   border: 2px solid gray;
   position: absolute;
   top: 3px;
-  left:3px;
-  background-color: rgba(0,0,0,0.75);
+  left: 3px;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
-.portfolio-item{
+.portfolio-item {
   height: fit-content !important;
   overflow: hidden;
   border: 3px solid rgba(0, 0, 0, 0.7);
-  margin-top:2px;
+  margin-top: 2px;
   margin-left: 2px;
 }
 .portfolio-item:hover img {
@@ -554,14 +559,14 @@ h2:hover{
 }
 
 .portfolio-title {
-  font-size:25px;
-  color:white;
+  font-size: 25px;
+  color: white;
 }
 
-.number-photos{
+.number-photos {
   font-size: 18px;
-  color:white;
-=======
+  color: white;
+}
 .info-block-reason {
   padding: 0px 0px 0px 20px;
   padding-top: 22px;
@@ -773,5 +778,4 @@ footer {
 .slick-dots li.slick-active button:before {
   opacity: 1;
   color: rgb(255, 255, 255);
->>>>>>> c0c954d5f859aa1a5d628eb35fec4720dc9547d0
 }
