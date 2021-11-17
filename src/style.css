@@ -779,11 +779,13 @@ footer {
   opacity: 1;
   color: rgb(255, 255, 255);
 }
+.slick-next {
+  display: block;
+  position: absolute;
+  right: 80px;
+}
 .slick-next:before {
   content: "→";
-  color: white;
-  position: relative;
-  right: 77px;
 }
 .slick-prev {
   left: 52px;
@@ -801,6 +803,6 @@ footer {
 }
 .slick-dotted.slick-slider {
   margin-bottom: 30px;
-  width: 96%;
+  width: 100%;
   margin: 0 auto;
 }
