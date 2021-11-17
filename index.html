@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link src='./src/font/ofont.ru_Lazurski.ttf' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./src/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./src/slick-1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" href="./src/style.css">
     <title>Document</title>
 </head>
@@ -20,12 +22,16 @@
         </div>
         <nav>
             <ul>
+                <div class="link-hover-solid">
                 <a href="">
-                    <li>Главная</li>
-                </a>
+                    Главная </a>
                 <a href="">
-                    <li>Каталог</li>
-                </a>
+                    Каталог</a>
+                <a href="">
+                    Оставить заявку </a>
+                </div>
+
+
             </ul>
         </nav>
         <div class="social-media-icon">
@@ -39,12 +45,9 @@
         </div>
     </header>
     <section class="slider">
-        <div class="slider-line">
-            <div class="slide-item">
-                <div class="slider-text"></div>
-                <div class="slider-btn"></div>
-            </div>
-        </div>
+        <div class="slide"><img src="./src//images/news-card-img-1.jpeg" alt=""></div>
+        <div class="slide"><img src="./src//images/news-card-img-2.jpg" alt=""></div>
+        <div class="slide"><img src="./src//images/news-card-img-3.jpeg" alt=""></div>
     </section>
     <section class="chapter-elite-curtains">
         <div class="curtains-title">
@@ -219,73 +222,173 @@
         </div>
     </section>
     <section class="info-block-experience">
-        <h2 class="info-block-experience-title"></h2>
-        <span class="info-block-experience-item-1"></span>
-        <span class="info-block-experience-item-2"></span>
-        <span class="info-block-experience-item-3"></span>
-        <span class="info-block-experience-item-4"></span>
-        <span class="info-block-experience-item-5"></span>
-        <span class="info-block-experience-item-6"></span>
-        <span class="info-block-experience-item-7"></span>
+        <div class="info-block-experience-container">
+            <h2 class="info-block-experience-title">Мы работаем с 1995 года</h2>
+            <div class="info-block-experience-text-block">
+                <span class="info-block-experience-item">
+                    <h4><span style="font-size: 37.3333px;">5</span> розничных салонов, кроме интернет-магазина.</h4>
+                </span>
+                <span class="info-block-experience-item">
+                    <h4><span style="font-size: 28pt;"><b>144 000</b></span> довольных клиентов.</h4>
+                </span>
+                <span class="info-block-experience-item">
+                    <h4><span style="font-size: 28pt;"><b>Более 120 000</b></span> самых сложных дизайнерских работ
+                        выполненных в кратчайшие сроки.</h4>
+                </span>
+                <span class="info-block-experience-item">
+                    <h4><span style="font-size: 28pt;"><b>Более 200&nbsp;</b></span> м2 пошивочного цеха с высокомощными
+                        станками и более 50 швей, технологов и других специалистов производственного отдела.</h4>
+                </span>
+                <span class="info-block-experience-item">
+                    <h4><span style="font-size: 28pt;"><b>Более 10 000</b></span> видов текстильных тканей и обоев на
+                        складе.</h4>
+                </span>
+                <span class="info-block-experience-item">
+                    <h4><span style="font-size: 28pt;"><b>Более 700&nbsp;</b></span> SKU готовой текстильной продукции.
+                    </h4>
+                </span>
+                <span class="info-block-experience-item">
+                    <h4><span style="font-size: 28pt;"><b>Более 1000&nbsp;</b></span> м2 складского помещения с новейшим
+                        оборудованием.</h4>
+                </span>
+            </div>
+        </div>
     </section>
     <section class="info-block-reason">
-        <h2 class="info-block-reason-title"></h2>
-        <span class="info-block-reason-text">
-            <h3 class="info-block-reason-text-title"></h3>
-            <p class="info-block-reason-text-subtext"></p>
-        </span>
-        <span class="info-block-reason-text">
-            <h3 class="info-block-reason-text-title"></h3>
-            <p class="info-block-reason-text-subtext"></p>
-        </span>
-        <span class="info-block-reason-text">
-            <h3 class="info-block-reason-text-title"></h3>
-            <p class="info-block-reason-text-subtext"></p>
-        </span>
-        <span class="info-block-reason-text">
-            <h3 class="info-block-reason-text-title"></h3>
-            <p class="info-block-reason-text-subtext"></p>
-        </span>
-        <span class="info-block-reason-text">
-            <h3 class="info-block-reason-text-title"></h3>
-            <p class="info-block-reason-text-subtext"></p>
-        </span>
-        <span class="info-block-reason-text">
-            <h3 class="info-block-reason-text-title"></h3>
-            <p class="info-block-reason-text-subtext"></p>
-        </span>
+        <h2 class="info-block-reason-title">Причины покупать в SALON INTERIORS</h2>
+        <div class="info-block-reason-block">
+            <span class="info-block-reason-text">
+                <h3 class="info-block-reason-text-title"><b>Мы любим вас!</b></h3>
+                <p class="info-block-reason-text-subtext">
+                    Вы — главная ценность нашей компании. Мы стараемся быть для вас лучше с каждым днем.
+                </p>
+            </span>
+            <span class="info-block-reason-text">
+                <h3 class="info-block-reason-text-title"><b>С вами работают профессионалы</b></h3>
+                <p class="info-block-reason-text-subtext">
+                    Наши сотрудники все имеют специальное образование дизайнера и художника оформителя.
+                </p>
+                <p class="info-block-reason-text-subtext">
+                    Мы искренне стремимся собрать все знания в сфере тканей обоев и поделиться с вами.
+                </p>
+            </span>
+            <span class="info-block-reason-text">
+                <h3 class="info-block-reason-text-title"><b>Получайте скидки и бонусы</b></h3>
+                <p class="info-block-reason-text-subtext">
+                    Участвуйте в акциях и лотереях, вас ждут призы и подарки!
+                </p>
+            </span>
+            <span class="info-block-reason-text">
+                <h3 class="info-block-reason-text-title">Москва или Владивосток? Всё равно!</h3>
+                <p class="info-block-reason-text-subtext">
+                    Доставка по Махачкале и Дагестану 1—2 дня.</p>
+            </span>
+            <span class="info-block-reason-text">
+                <h3 class="info-block-reason-text-title"><b>Мы выезжаем по адресу</b></h3>
+                <p class="info-block-reason-text-subtext">
+                    Делаем замеры, готовим дизайн проект под вас, подбираем варианты, согласовываем их с вами,
+                    изготавливаем и устанавливаем.
+                </p>
+            </span>
+            <span class="info-block-reason-text">
+                <h3 class="info-block-reason-text-title"><b>Платите как хотите!</b></h3>
+                <p class="info-block-reason-text-subtext">
+                    Вы можете оплатить наличными или банковской картой в Салоне, электронно на сайте или при доставке.
+                </p>
+                <p class="info-block-reason-text-subtext">
+                    Для вас доступны все способы оплаты.
+                </p>
+            </span>
+        </div>
     </section>
     <section class="news">
-        <h2 class="news-title"></h2>
-        <div class="news-block-card">
-            <img class="news-img" src="" alt="">
-            <h3 class="news-title"></h3>
-            <p class="news-date"></p>
-        </div>
-        <div class="news-block-card">
-            <img class="news-img" src="" alt="">
-            <h3 class="news-title"></h3>
-            <p class="news-date"></p>
-        </div>
-        <div class="news-block-card">
-            <img class="news-img" src="" alt="">
-            <h3 class="news-title"></h3>
-            <p class="news-date"></p>
-        </div>
-        <div class="news-block-card">
-            <img class="news-img" src="" alt="">
-            <h3 class="news-title"></h3>
-            <p class="news-date"></p>
+        <h2 class="news-block-title">Статьи и новости</h2>
+        <img src="./src/images/block-title-border.png" alt="">
+        <div class="news-block-card-block">
+            <div class="news-block-card-small">
+                <img src="./src/images/news-card-img-2.jpg" class="news-img" alt="">
+                <div class="news-block-text">
+                    <span class="news-title">Открытие нового шоурума</span>
+                    <p class="news-date">22 марта 2021</p>
+                </div>
+            </div>
+            <div class="news-block-card-small">
+                <img src="./src/images/news-card-img-2.jpg" class="news-img" alt="">
+                <div class="news-block-text">
+                    <span class="news-title">Открытие нового шоурума</span>
+                    <p class="news-date">22 марта 2021</p>
+                </div>
+            </div>
+            <div class="news-block-card-small">
+                <img src="./src/images/news-card-img-2.jpg" class="news-img" alt="">
+                <div class="news-block-text">
+                    <span class="news-title">Открытие нового шоурума</span>
+                    <p class="news-date">22 марта 2021</p>
+                </div>
+            </div>
+            <div class="news-block-card-small">
+                <img src="./src/images/news-card-img-3.jpeg" class="news-img" alt="">
+                <div class="news-block-text">
+                    <span class="news-title">Международный интерьерный фестиваль</span>
+                    <p class="news-date">9 сентября 2020</p>
+                </div>
+            </div>
+            <div class="news-block-card-small">
+                <img src="./src/images/news-card-img-4.jpg" class="news-img" alt="">
+                <div class="news-block-text">
+                    <span class="news-title">Международный интерьерный фестиваль</span>
+                    <p class="news-date">9 сентября 2020</p>
+                </div>
+            </div>
         </div>
     </section>
     <footer>
-        <p class="license"></p>
+        <p class="license">
+            ® ИП Амирбекова М.К., 2011–2021
+            Все права защищены
+            Использование материалов
+            salon-interiors.ru без разрешения владельцев сайта запрещено.
+        </p>
         <div class="contact">
-            <h5 class="contact-title"></h5>
-            <a href=""></a>
-            <a href=""></a>
+            <h5 class="contact-title">Наши контакты:</h5>
+            <a class="contact-tel-1" href="">+7 (495) 790-90-94
+            </a>
+            <a class="contact-tel-2" href=""> +7 (929) 520-99-99
+            </a>
+            <a class="contact-email" href="">client@salon-interiors.ru</a>
+        </div>
+        <p class="address">SALONINTERIORS, Элитные интерьерные ткани.
+            г. Москва, ул. Погодинская 2/3 строение 1, офис 13,
+            119121, Россия,+7 (929) 520-99-99,
+            +7 (495) 790-90-94</p>
+        <div class="social">
+            <h4>Оставайтесь на связи</h4>
+            <div class="social-media-icon-footer">
+                <div class="social-media-instagram scale-icon-block margin_icon"><img
+                        class="social-media-instagram-icon shadow-icon  scale-icon" src="./src/images/instagram.png"
+                        alt="">
+                </div>
+                <div class="social-media-whatsapp scale-icon-block margin_icon"><img
+                        class="social-media-whatsapp-icon scale-icon" src="./src/images/whats-app.png" alt=""></div>
+                <div class="social-media-call scale-icon-block margin_icon"><img
+                        class="social-media-call-icon scale-icon" src="./src/images/call.png" alt=""></div>
+            </div>
         </div>
     </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./src/slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
+            });
+        });
+    </script>
 </body>
 
 </html>
