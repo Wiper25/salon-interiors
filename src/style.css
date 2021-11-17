@@ -479,9 +479,9 @@ iframe {
 }
 
 .portfolio-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
   align-items: center;
 }
 
@@ -490,15 +490,14 @@ iframe {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -60px;
 }
 .portfolio-info p {
-  margin-top: -10px;
+  margin-top: 0;
 }
 
-.portfolio-wrapper div {
-  width: 370px;
-  height: 247px;
+.portfolio-wrapper {
+  width: 100vw;
+  height: 100%;
 }
 
 .portfolio-wrapper img {
@@ -551,15 +550,18 @@ h2:hover {
 }
 
 .portfolio-item {
-  height: fit-content !important;
-  overflow: hidden;
-  border: 3px solid rgba(0, 0, 0, 0.7);
   margin-top: 2px;
   margin-left: 2px;
 }
 .portfolio-item:hover img {
   transform: scale(1.2);
   transition: all 0.2s;
+}
+
+.portfolio-item-img {
+  border: 3px solid rgba(0, 0, 0, 0.7);
+  height: 245px;
+  overflow: hidden;
 }
 
 .portfolio-title {
@@ -813,6 +815,111 @@ footer {
   margin-bottom: 30px;
   width: 100%;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .portfolio-wrapper {
+    display: grid;
+    grid-template-rows: 700px 700px 700px;
+    grid-template-columns: 800px;
+    justify-items: center;
+  }
+  .portfolio-wrapper {
+    width: 100vw;
+    height: 100%;
+  }
+
+  .first-layer {
+    width: 80vw;
+    height: 550px;
+  }
+
+  .second-layer {
+    width: 79vw;
+    height: 550px;
+  }
+
+  .portfolio-item-img {
+    width: 79vw;
+    height: 550px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolio-wrapper {
+    display: grid;
+    grid-template-rows: 450px 450px 450px;
+    grid-template-columns: 760px;
+    justify-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100%;
+  }
+
+  .row-n-column {
+    width: 100vw;
+    position: relative;
+  }
+
+  .first-layer {
+    width: 80vw;
+    height: 350px;
+  }
+
+  .second-layer {
+    width: 79vw;
+    height: 350px;
+  }
+
+  .portfolio-item-img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .portfolio-info {
+    margin-top: -20px;
+  }
+
+  .services-row-one {
+    width: 100vw;
+    flex-direction: column;
+  }
+
+  .services-row-two {
+    width: 100vw;
+    flex-direction: column;
+  }
+  .shadow {
+    width: 100vw;
+    height: 301px;
+  }
+
+  .shadow img {
+    width: 100vw;
+    height: 301px;
+  }
+
+  .shadow span {
+    width: 100vw;
+  }
+
+  .services-title {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .first-layer {
+    height: 300px;
+  }
+
+  .second-layer {
+    height: 300px;
+  }
+
+  .portfolio-item-img {
+    height: 300px;
+  }
 }
 .width-procent-top-right {
   width: 30%;
